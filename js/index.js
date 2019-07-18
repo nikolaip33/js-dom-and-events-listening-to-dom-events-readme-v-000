@@ -8,6 +8,6 @@ main.addEventListener('click', function(event) {
 
 const input = document.querySelector('input');
 
-input.addEventListener('keypress', function(e) {
+input.addEventListener('keydown', function(e) {
   console.log(e.which);
 });
